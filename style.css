@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif, sans-serif;
+  margin: 2px;
+  padding: 5px;
+}
+
+body {
+  background-color: rgb(14, 13, 13);
+  color: rgb(178, 178, 180);
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+img {
+  width: 200px;
+}
